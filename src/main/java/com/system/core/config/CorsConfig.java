@@ -21,7 +21,9 @@ public class CorsConfig {
         "http://localhost*",
         "http://frontend*",
         "http://angularpart:*",
-        "null"
+        "null",
+        "https://frontend-production-3f78.up.railway.app",
+        "frontend-production-3f78.up.railway.app"
       ));
 
         config.addAllowedMethod("*"); // Autoriser toutes les méthodes
